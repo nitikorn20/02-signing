@@ -236,6 +236,19 @@ make program
 
 </details>
 
+<details>
+<summary><strong>GeneratedSource is not created after opening in VS Code</strong></summary>
+
+**Symptom:** After cloning from GitHub and opening in VS Code, `GeneratedSource` is sometimes not created. This makes `boot_with_bldr.json` missing for the `COMBINE_SIGN_JSON` path in `common.mk`.
+
+**Workaround:**
+1. Temporarily comment this line in `common.mk`:
+   `COMBINE_SIGN_JSON?=./bsps/TARGET_$(TARGET)/config/GeneratedSource/boot_with_bldr.json`
+2. Run `make -j8` to let the system generate `GeneratedSource`
+3. Uncomment the line, then run `make program`
+
+</details>
+
 ---
 
 ## Related Resources
