@@ -2,7 +2,7 @@
 
 **Sign commands securely - Hardware-protected ECDSA without exposing private keys**
 
-> **Part 2 of 3** | [Part 1: Attestation ←](https://github.com/nitikorn20/psoc-edge-optiga-01-attestation) | [← Back to Tutorial Hub](https://github.com/nitikorn20/optiga-tfm-connectivity-tutorials) | [Part 3: Secure Channel →](https://github.com/nitikorn20/psoc-edge-optiga-03-secure-channel)
+> **Part 2 of 3** | [Part 1: Attestation ←](https://github.com/nitikorn20/01-attestation) | [← Back to Tutorial Hub](https://github.com/nitikorn20/optiga-tfm-connectivity-tutorials) | [Part 3: Secure Channel →](https://github.com/nitikorn20/03-secure-channel)
 
 [![Difficulty](https://img.shields.io/badge/Difficulty-Intermediate-yellow)]()
 [![Time](https://img.shields.io/badge/Time-45_minutes-blue)]()
@@ -59,17 +59,11 @@ See [Hardware Setup Guide](https://github.com/nitikorn20/optiga-tfm-connectivity
 
 ---
 
-### Build and Run
+### Build and Program (VS Code)
 
-```bash
-# Build all projects
-make -j8
+See [docs/build.md](docs/build.md) for the standard VS Code workflow used by this project.
 
-# Program device
-make program
-```
-
-### 3. Expected Output
+### Expected Output
 
 Open serial terminal (115200 baud) and reset the board:
 
@@ -215,11 +209,7 @@ BLOG2_SIGNING/
 - USB cable to KitProg3 port
 
 **Try:**
-```bash
-make clean_all
-make -j8
-make program
-```
+- Run **Clean**, then **Build**, then **Program** in ModusToolbox.
 
 </details>
 
@@ -244,8 +234,8 @@ make program
 **Workaround:**
 1. Temporarily comment this line in `common.mk`:
    `COMBINE_SIGN_JSON?=./bsps/TARGET_$(TARGET)/config/GeneratedSource/boot_with_bldr.json`
-2. Run `make -j8` to let the system generate `GeneratedSource`
-3. Uncomment the line, then run `make program`
+2. Run **Build** in ModusToolbox to let the system generate `GeneratedSource`
+3. Uncomment the line, then run **Program**
 
 </details>
 
@@ -254,9 +244,7 @@ make program
 ## Related Resources
 
 ### Tutorial Series
-- [Tutorial Hub](../optiga-tfm-connectivity-tutorials/)
-- [Part 1: Attestation](../BASE/)
-- [Part 3: Secure Channel](../BLOG3_SECURE_CHANNEL/) (coming soon)
+- [Tutorial Hub](https://github.com/nitikorn20/optiga-tfm-connectivity-tutorials)
 
 ### Documentation
 - [PSA Crypto API](https://arm-software.github.io/psa-api/crypto/)
@@ -280,8 +268,8 @@ make program
 **✅ Completed Part 2!** You now understand ECDSA signature generation and verification.
 
 **Continue learning:**
-- [**Part 3: Secure Channel →**](https://github.com/nitikorn20/psoc-edge-optiga-03-secure-channel) - End-to-end encryption (90 min)
-- [**Back to Part 1**](https://github.com/nitikorn20/psoc-edge-optiga-01-attestation) - Review attestation concepts
+- [**Part 3: Secure Channel →**](https://github.com/nitikorn20/03-secure-channel) - End-to-end encryption (90 min)
+- [**Back to Part 1**](https://github.com/nitikorn20/01-attestation) - Review attestation concepts
 
 **Explore more:**
 - [**Tutorial Series Hub**](https://github.com/nitikorn20/optiga-tfm-connectivity-tutorials)
