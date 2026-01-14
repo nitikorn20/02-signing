@@ -62,6 +62,6 @@ endif
 
 #Config file for postbuild sign and merge operations.
 #NOTE:Check the JSON file for the command parameters
-COMBINE_SIGN_JSON?=./bsps/TARGET_$(TARGET)/config/GeneratedSource/boot_with_bldr.json
+COMBINE_SIGN_JSON?=
 
 include ../common_app.mk

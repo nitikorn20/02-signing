@@ -2870,7 +2870,7 @@
                         <Param id="response" value="CY_PPC_BUS_ERR"/>
                     </Parameters>
                 </Personality>
-                <Personality template="pclk_v2" version="1.1" instance="RP6AFNV6Xkc">
+                <Personality template="pclk_v2" version="1.1" instance="CFwsRWdu8rA">
                     <Block location="peri[0].group[1].div_8[0]" locked="true">
                         <Aliases>
                             <Alias value="CYBSP_EZ_I2C_TARGET_CLK_DIV"/>
@@ -2881,7 +2881,7 @@
                         <Param id="startOnReset" value="true"/>
                     </Parameters>
                 </Personality>
-                <Personality template="pclk_v2" version="1.1" instance="aSRNzJey-Z0">
+                <Personality template="pclk_v2" version="1.1" instance="q7Z9snyUFQo">
                     <Block location="peri[0].group[1].div_8[1]" locked="true">
                         <Aliases>
                             <Alias value="CYBSP_SPI_CONTROLLER_CLK_DIV"/>
@@ -2892,7 +2892,7 @@
                         <Param id="startOnReset" value="true"/>
                     </Parameters>
                 </Personality>
-                <Personality template="pclk_v2" version="1.1" instance="AvFpFeDbsCI">
+                <Personality template="pclk_v2" version="1.1" instance="qSA5LrYxiEk">
                     <Block location="peri[0].group[1].div_8[2]" locked="true">
                         <Aliases>
                             <Alias value="CYBSP_USB_OS_TIMER_CLK_DIV"/>
@@ -2903,7 +2903,7 @@
                         <Param id="startOnReset" value="true"/>
                     </Parameters>
                 </Personality>
-                <Personality template="pclk_v2" version="1.1" instance="bZkExDxZ9Ds">
+                <Personality template="pclk_v2" version="1.1" instance="37EGzPKxDMo">
                     <Block location="peri[0].group[1].div_8[3]" locked="true">
                         <Aliases>
                             <Alias value="CYBSP_PWM_DT_CLK_DIV"/>
@@ -2914,7 +2914,7 @@
                         <Param id="startOnReset" value="true"/>
                     </Parameters>
                 </Personality>
-                <Personality template="pclk_v2" version="1.1" instance="dGR4N0lya0c">
+                <Personality template="pclk_v2" version="1.1" instance="rfUia5nhYUA">
                     <Block location="peri[0].group[1].div_16[0]" locked="true">
                         <Aliases>
                             <Alias value="CYBSP_I2C_CONTROLLER_CLK_DIV"/>
@@ -2925,7 +2925,7 @@
                         <Param id="startOnReset" value="true"/>
                     </Parameters>
                 </Personality>
-                <Personality template="pclk_v2" version="1.1" instance="UO6qrOi6ZBk">
+                <Personality template="pclk_v2" version="1.1" instance="wRCUbAL1Kzw">
                     <Block location="peri[0].group[1].div_16[1]" locked="true">
                         <Aliases>
                             <Alias value="CYBSP_DEBUG_UART_CLK_DIV"/>
@@ -2936,7 +2936,7 @@
                         <Param id="startOnReset" value="true"/>
                     </Parameters>
                 </Personality>
-                <Personality template="pclk_v2" version="1.1" instance="2Bg_HNRlgHA">
+                <Personality template="pclk_v2" version="1.1" instance="HDPrxysR6j0">
                     <Block location="peri[0].group[1].div_16[2]" locked="true">
                         <Aliases>
                             <Alias value="CYBSP_GENERAL_PURPOSE_TIMER_CLK_DIV"/>
@@ -2947,7 +2947,7 @@
                         <Param id="startOnReset" value="true"/>
                     </Parameters>
                 </Personality>
-                <Personality template="pclk_v2" version="1.1" instance="niRW-JCXPnY">
+                <Personality template="pclk_v2" version="1.1" instance="Szcjt7rVdHI">
                     <Block location="peri[0].group[1].div_16[3]" locked="true">
                         <Aliases>
                             <Alias value="CYBSP_PWM_LED_CTRL_CLK_DIV"/>
@@ -2958,7 +2958,7 @@
                         <Param id="startOnReset" value="true"/>
                     </Parameters>
                 </Personality>
-                <Personality template="pclk_v2" version="1.1" instance="_K8rd7eKCWQ">
+                <Personality template="pclk_v2" version="1.1" instance="SGjn19bOjes">
                     <Block location="peri[0].group[1].div_16_5[0]" locked="true">
                         <Aliases>
                             <Alias value="CYBSP_BT_UART_CLK_DIV"/>
@@ -2970,7 +2970,7 @@
                         <Param id="startOnReset" value="true"/>
                     </Parameters>
                 </Personality>
-                <Personality template="pclk_v2" version="1.1" instance="5gzbIDy4xC8">
+                <Personality template="pclk_v2" version="1.1" instance="t6uXGqNJdr4">
                     <Block location="peri[0].group[1].div_16_5[1]" locked="true">
                         <Aliases>
                             <Alias value="CYBSP_SMARTIO_PWM_CLK_DIV"/>
@@ -2982,7 +2982,7 @@
                         <Param id="startOnReset" value="true"/>
                     </Parameters>
                 </Personality>
-                <Personality template="pclk_v2" version="1.1" instance="8BeLrXN34tw">
+                <Personality template="pclk_v2" version="1.1" instance="asNfNJRxrZ4">
                     <Block location="peri[0].group[1].div_24_5[0]" locked="true">
                         <Aliases>
                             <Alias value="CYBSP_SMART_IO_CLK_DIV"/>
@@ -2994,7 +2994,7 @@
                         <Param id="startOnReset" value="true"/>
                     </Parameters>
                 </Personality>
-                <Personality template="pclk_v2" version="1.1" instance="HHqoHhWyXlg">
+                <Personality template="pclk_v2" version="1.1" instance="izON3lN5QOk">
                     <Block location="peri[0].group[7].div_16_5[0]" locked="true">
                         <Aliases>
                             <Alias value="CYBSP_TRACE_CLK_DIV"/>
@@ -3006,7 +3006,7 @@
                         <Param id="startOnReset" value="true"/>
                     </Parameters>
                 </Personality>
-                <Personality template="pclk_v2" version="1.1" instance="PbhLlA1N7n0">
+                <Personality template="pclk_v2" version="1.1" instance="HZclQz5wEEA">
                     <Block location="peri[0].group[9].div_8[0]" locked="true">
                         <Aliases>
                             <Alias value="CYBSP_I3C_CONTROLLER_CLK_DIV"/>
@@ -3017,7 +3017,7 @@
                         <Param id="startOnReset" value="true"/>
                     </Parameters>
                 </Personality>
-                <Personality template="mmio" version="1.1" instance="Myhnm1AiOXk">
+                <Personality template="mmio" version="1.1" instance="CgM2u9KFseo">
                     <Block location="peri[0].mmio[0]" locked="true"/>
                     <Parameters>
                         <Param id="divider2" value="2"/>
@@ -3230,7 +3230,7 @@
                         <Param id="response" value="CY_PPC_BUS_ERR"/>
                     </Parameters>
                 </Personality>
-                <Personality template="pclk_v2" version="1.1" instance="F02swSgt_Cs">
+                <Personality template="pclk_v2" version="1.1" instance="LU1XmrB1y2A">
                     <Block location="peri[1].group[1].div_16_5[0]" locked="true">
                         <Aliases>
                             <Alias value="CYBSP_TDM_CONTROLLER_0_CLK_DIV"/>
@@ -3242,7 +3242,7 @@
                         <Param id="startOnReset" value="true"/>
                     </Parameters>
                 </Personality>
-                <Personality template="pclk_v2" version="1.1" instance="O3q2vbyRg5A">
+                <Personality template="pclk_v2" version="1.1" instance="w13ReGLxKVE">
                     <Block location="peri[1].group[1].div_16_5[1]" locked="true">
                         <Aliases>
                             <Alias value="CYBSP_PDM_CLK_DIV"/>
@@ -3254,7 +3254,7 @@
                         <Param id="startOnReset" value="true"/>
                     </Parameters>
                 </Personality>
-                <Personality template="pclk_v2" version="1.1" instance="XmCze1rOVNo">
+                <Personality template="pclk_v2" version="1.1" instance="-7cOhKDJrbA">
                     <Block location="peri[1].group[2].div_8[0]" locked="true">
                         <Aliases>
                             <Alias value="CYBSP_SDHC_0_CLK_DIV"/>
@@ -3265,7 +3265,7 @@
                         <Param id="startOnReset" value="true"/>
                     </Parameters>
                 </Personality>
-                <Personality template="pclk_v2" version="1.1" instance="F_USQK3jdt8">
+                <Personality template="pclk_v2" version="1.1" instance="ddXQOiFK34w">
                     <Block location="peri[1].group[3].div_8[0]" locked="true">
                         <Aliases>
                             <Alias value="CYBSP_SDHC_1_CLK_DIV"/>
@@ -3276,7 +3276,7 @@
                         <Param id="startOnReset" value="true"/>
                     </Parameters>
                 </Personality>
-                <Personality template="mmio" version="1.1" instance="DIkebGDkGkk">
+                <Personality template="mmio" version="1.1" instance="ndFKwb8vcjM">
                     <Block location="peri[1].mmio[0]" locked="true"/>
                     <Parameters>
                         <Param id="divider1" value="2"/>
@@ -3829,7 +3829,7 @@
                         <Param id="inFlash" value="true"/>
                     </Parameters>
                 </Personality>
-                <Personality template="power_v4" version="1.1" instance="VYYrCZs0jk4">
+                <Personality template="power_v4" version="1.1" instance="1TloFEvoQvg">
                     <Block location="srss[0].power[0]" locked="true"/>
                     <Parameters>
                         <Param id="actPwrMode" value="POWER_PROFILE_HP"/>
@@ -4630,13 +4630,13 @@
                         <Param id="image_encryption" value="off"/>
                         <Param id="key_encryption_key_id" value="25"/>
                         <Param id="key_encryption_key_path" value="../../../../keys/enc-ec256-pub.pem"/>
-                        <Param id="logging_level" value="dbg"/>
+                        <Param id="logging_level" value="off"/>
                         <Param id="max_boot_record_size" value="0x200"/>
                         <Param id="mbedtls_crypto_config_file" value="$(SEARCH_ifx-mcuboot-pse84)/boot/platforms/COMPONENT_PSE84/mcuboot_config/ifx_mbedtls_crypto_config.h"/>
                         <Param id="mbedtls_psa_crypto_config_file" value="$(SEARCH_ifx-mcuboot-pse84)/boot/platforms/COMPONENT_PSE84/mcuboot_config/ifx_psa_crypto_config.h"/>
                         <Param id="mbedtls_target_config_file" value="$(SEARCH_ifx-mcuboot-pse84)/boot/platforms/COMPONENT_PSE84/mcuboot_config/ifx_mbedtls_target_config.h"/>
-                        <Param id="measured_boot" value="false"/>
-                        <Param id="measured_boot_record_region" value=""/>
+                        <Param id="measured_boot" value="true"/>
+                        <Param id="measured_boot_record_region" value="_Hf5ER1SoPM"/>
                         <Param id="nonce_output_file_path" value="../../../../keys/nonce.bin"/>
                         <Param id="oem_private_key_path" value="../../../../keys/oem_private_key_0.pem"/>
                         <Param id="reserved_memory_region_its#cores" value="CORE_NAME_CM33_0_S"/>
